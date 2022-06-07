@@ -1,0 +1,1 @@
+# aws cloudformation delete-stack --stack-name mybucket --profile ${MY_PROFILE} --region eu-central-1

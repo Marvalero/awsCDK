@@ -1,0 +1,8 @@
+AWSTemplateFormatVersion: "2010-09-09"
+Description: This is my first bucket
+Resources:
+  MyBucket:
+    Type: AWS::S3::Bucket
+
+# aws cloudformation create-stack --profile ${MY_PROFILE} --stack-name mybucket --template-body file://1-first-bucket.yaml --region eu-central-1
+#  aws s3 ls --profile ${MY_PROFILE}

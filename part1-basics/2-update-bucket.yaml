@@ -1,0 +1,9 @@
+AWSTemplateFormatVersion: "2010-09-09"
+Description: This is my first bucket
+Resources:
+  MyBucket:
+    Type: AWS::S3::Bucket
+    Properties:
+      AccessControl: PublicRead
+# aws cloudformation update-stack --profile ${MY_PROFILE} --stack-name mybucket --template-body file://2-update-bucket.yaml --region eu-central-1
+#  aws s3 ls --profile ${MY_PROFILE}
